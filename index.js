@@ -8,3 +8,6 @@ app.options('*', cors())
 
 // Read JSON DATA
 app.use(express.json())
+
+// Start server
+app.listen(3000,()=>console.log("SERVER START"))
